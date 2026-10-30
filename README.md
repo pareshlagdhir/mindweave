@@ -17,7 +17,7 @@ You need [Rust](https://rustup.rs) and your system's C build tools. The scripts 
 **macOS** (needs the Xcode command-line tools: `xcode-select --install`)
 
 ```sh
-git clone https://github.com/pareshlagdhir-arrk/mindweave.git
+git clone https://github.com/pareshlagdhir/mindweave.git
 cd mindweave
 scripts/install.sh
 ```
@@ -27,7 +27,7 @@ Installs `~/Applications/Mindweave.app`, which you open from Spotlight or Launch
 **Linux** (needs a C compiler and the X11, Wayland, Vulkan, font and GTK development packages; the script lists the exact `apt` or `dnf` command if any are missing)
 
 ```sh
-git clone https://github.com/pareshlagdhir-arrk/mindweave.git
+git clone https://github.com/pareshlagdhir/mindweave.git
 cd mindweave
 scripts/install.sh
 ```
@@ -37,7 +37,7 @@ Installs `~/.local/bin/mindweave` with an entry in your app menu.
 **Windows** (needs [Build Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022) with "Desktop development with C++")
 
 ```powershell
-git clone https://github.com/pareshlagdhir-arrk/mindweave.git
+git clone https://github.com/pareshlagdhir/mindweave.git
 cd mindweave
 powershell -ExecutionPolicy Bypass -File scripts\install.ps1
 ```
